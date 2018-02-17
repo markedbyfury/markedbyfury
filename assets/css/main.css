@@ -1658,6 +1658,7 @@
 
 	p {
 		margin: 0 0 2rem 0;
+		color: #2c2d2c;
 	}
 
 		p.special {
@@ -2391,6 +2392,7 @@
 
 		ul li {
 			padding-left: 0.5rem;
+			color: #2c2d2c;
 		}
 
 		ul.alt {
@@ -2600,6 +2602,7 @@
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			color: #2c2d2c;
 		}
 
 		table th {
