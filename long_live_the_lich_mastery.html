@@ -6,6 +6,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--czarek start-->
+		<link rel="stylesheet" href="assets/css/modal_images.css" />
+		<!--czarek koniec-->
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
@@ -106,7 +109,7 @@
 
 											<p>Bardzo prosty achivment - trzeba przejechać wszystkie Skarabeusze w czasie poniżej 30 sekund. Pamiętaj, żeby być na Raptorze podczas spotkania ze statkiem.</p>
 
-											<img src="images/8Wp80FA.jpg" style="width:25%;height:rel;" /><br/><br/>
+											<img id="modal_small_Img" src="images/8Wp80FA.jpg" style="width:25%;height:rel;" /><br/><br/>
 											
 										<h4><strong>3. Stay Alseep, Sheep</strong></h4>
 											
@@ -159,9 +162,9 @@
 												
 												<p>Do tego achievmenta trzeba posadzić trzy sadzonki zanim zrobi to  Canach. Polecam podążać tuż za nim i od razu po tym gdy zobaczycie miejse przeznaczone na sadzonkę, wyprzedzić go - tak by zdążyć przed nim.</p>
 
-												<img src="images/171QeVa.jpg" style="width:25%;height:rel;" />
-												<img src="images/O8ZqmgU.jpg" style="width:25%;height:rel;" />
-												<img src="images/rxLJC23.jpg" style="width:25%;height:rel;" />
+												<img id="modal_small_Img" src="images/171QeVa.jpg" style="width:25%;height:rel;" />
+												<img id="modal_small_Img" src="images/O8ZqmgU.jpg" style="width:25%;height:rel;" />
+												<img id="modal_small_Img" src="images/rxLJC23.jpg" style="width:25%;height:rel;" />
 												<br/><br/>
 												
 											<h4><strong>4. Decimation</strong></h4>
@@ -195,9 +198,9 @@
 											
 												<p>Do zrobienia tego achievmenta musisz wysłuchać wszystkich zaczepek Joko co oznacza, że musisz dać się uderzyć laserom, ognistym i mroźnym kratką, co automatycznie wyklucza Cię z <strong><i>Dexterous and Flexible</i></strong>. Achievmenta powinieneś dostać po usłyszeniu ostatniej zaczepki w trzecim pokoju. Wystarczy, że w każdym pomieszczeniu będziesz wchodzić na pierwszą przeszkodę dopóki Joko nie przestanie gadać a w trzecim pokoju poczekasz aż Joko skończy się naśmiewać. Po dostaniu achievmenta możesz swobodnie używać sygnetu i kontynuować instancję.</p>
 												
-												<img src="images/T2T1rZG.jpg" style="width:25%;height:rel" />
-												<img src="images/hKbD5e7.jpg" style="width:25%;height:rel" />
-												<img src="images/thgR5bv.jpg" style="width:25%;height:rel" />
+												<img id="modal_small_Img" src="images/T2T1rZG.jpg" style="width:25%;height:rel" />
+												<img id="modal_small_Img" src="images/hKbD5e7.jpg" style="width:25%;height:rel" />
+												<img id="modal_small_Img" src="images/thgR5bv.jpg" style="width:25%;height:rel" />
 												<br/><br/>
 									</div>
 								</div>									
@@ -221,7 +224,22 @@
 				<div class="copyright">
 				</div>
 			</footer>
+			
+		<!-- czarek start -->
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
 
+			<!-- The Close Button -->
+			<span class="close_modal">&times;</span>
+
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="img01">
+
+			<!-- Modal Caption (Image Text) -->
+			<div id="caption"></div>
+		</div>
+		<!-- czarek koniec -->
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -229,5 +247,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- czarek start -->
+			<script src="assets/js/modal_script.js"></script>
+			<!-- czarek koniec -->
+			
 	</body>
 </html>
